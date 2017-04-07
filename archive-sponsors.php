@@ -8,10 +8,10 @@
 
 				 <?php 		
 				 $args = array('post_type' => 'sponsors', 
-				 							'meta_key' => 'sponsor',
-				 							'orderby' => 'meta_value_num',
-				 							'order' => 'ASC',
-				 							'post_per_page' => -1 );
+				 	'meta_key' => 'sponsor',
+				 	'orderby' => 'meta_value_num',
+				 	'order' => 'ASC',
+				 	'post_per_page' => -1 );
 				 $loop = new WP_Query( $args );
 				 
 				 if( $loop->have_posts() ):
