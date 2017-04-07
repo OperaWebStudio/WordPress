@@ -1,0 +1,22 @@
+body.login{
+	background: #083673;	
+}
+.login h1 a{
+	background: url('uploads/logo.png') no-repeat center center;
+	background-color: #FFF;
+	width: auto;
+	height: 130px;
+}
+.login #backtoblog a, .login #nav a{
+	color: #FFF;
+}
+.login form,
+.login h1 a {
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+}
+.wp-core-ui .button-primary {
+    background: #083673;
+}	 
